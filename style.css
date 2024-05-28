@@ -322,6 +322,14 @@ nav.sopra .logo
 
 
 
+.videoattributes{
+    display: block;
+    margin: 1em auto;
+    width: 80%;
+    max-height: 288px;
+    max-width: 600px;
+}
+
 /* Galleria */
 
 .galleria 
@@ -558,7 +566,7 @@ hr
 
     .map
     {
-        width: 100%;
+        width: 100vw;
     }
 
     .galleriabox-grid {
@@ -589,7 +597,12 @@ hr
     }
     .str4
     {
-        padding-top: 0px;
+        
+        padding: 0px 0px 20px;
+    }
+    .map
+    {
+        width: 100vw;
     }
 }
 
@@ -1077,6 +1090,10 @@ hr
     .contentRight .content h2{
         font-size: 30px;
     }
+    .yey{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -1196,11 +1213,3 @@ hr
   }
 
 
-
-iframe{
-    display: block;
-    margin: 1em auto;
-    width: 80%;
-    max-height: 288px;
-    max-width: 600px;
-}
